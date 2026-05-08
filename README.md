@@ -1,4 +1,4 @@
-#Projectile Motion Simulation
+# Projectile Motion Simulation
 
 This project simulates projectile motion with and without drag using Python.
 
@@ -9,7 +9,7 @@ Features:
 - Trajectory visualization using matplotlib
 
 
-##Physics
+## Physics
 
 The physics is quite simple:
 We first try to understand projectile motion without any drag forces. The velocity components initially are:
@@ -22,7 +22,7 @@ y(t) = u sin(theta)t - 1/2 gt^2
 
 With drag, we have an additional force F_d = -kv
 
-##Libraries used:
+## Libraries used:
 1. Numpy
 2. Matplotlib
 
