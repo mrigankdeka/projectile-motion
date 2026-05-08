@@ -16,8 +16,6 @@ def projectile(u,theta_drag):
     plt.ylabel("y")
     plt.title("Projectile Motion")
     plt.grid()
-
-    plt.savefig("images/trajectory.png")
     plt.show()
 
 projectile(2,45)
