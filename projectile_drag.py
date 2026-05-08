@@ -16,6 +16,7 @@ def projectile(u, theta_drag, m, k):
     x = 0
     y = 0
     
+    
     #store coordinate values at every point
     x_list = [x]
     y_list = [y]
@@ -47,6 +48,8 @@ def projectile(u, theta_drag, m, k):
     plt.xlabel("x")
     plt.ylabel("y")
     plt.grid()
+
+    plt.savefig("images/trajectory_with_drag.png")
     plt.show()
 
 projectile(2, 45, 0.1, 0.2)
